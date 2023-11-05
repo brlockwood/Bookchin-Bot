@@ -10,4 +10,4 @@ This bot was built by loosely based on the following tutorials:
 
 # Contribute
 
-If you want to add some quotes, just add them in quotes.js file and do a pull request!
+If you want to add some quotes, just add them in quotes.json file and do a pull request!
