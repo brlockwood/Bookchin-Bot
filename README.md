@@ -3,7 +3,7 @@
 # Bookchin-Bot
 A simple Mastodon bot that posts quotes from books by Murray Bookcin
 
-# Hot to
+# How to
 
 This bot was built by loosely based on the following tutorials:
 
