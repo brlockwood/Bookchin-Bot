@@ -1,7 +1,7 @@
 ![covers!](https://github.com/brlockwood/Bookchin-Bot/blob/main/covers.png?raw=true)
 
 # Bookchin-Bot
-A simple Mastodon bot that posts quotes from books by Murray Bookcin ([@BookchinBot@botsin.space](https://botsin.space/@BookchinBot))
+A simple Mastodon bot that posts quotes from books by Murray Bookchin ([@BookchinBot@botsin.space](https://botsin.space/@BookchinBot))
 
 # How to
 
