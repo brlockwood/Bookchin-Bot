@@ -13,3 +13,6 @@ This bot was built loosely based on the following tutorials:
 # Contribute
 
 If you want to add some quotes, just drop them into the <code>quotes.json</code> file and do a pull request!
+
+# Verification
+<a rel="me" href="https://botsin.space/@BookchinBot">Mastodon</a>
