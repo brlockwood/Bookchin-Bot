@@ -4,6 +4,7 @@ from mastodon import Mastodon
 from datetime import datetime
 import sys
 
+# post every 3 hours
 if datetime.today().hour % 3 != 0:
     sys.exit()
 
