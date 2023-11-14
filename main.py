@@ -1,6 +1,11 @@
 import random
 import json
 from mastodon import Mastodon
+from datetime import datetime
+import sys
+
+if datetime.today().hour % 3 != 0:
+    sys.exit()
 
 #   Set up Mastodon
 mastodon = Mastodon(
