@@ -21,7 +21,14 @@ quotes_data = json.load(f)
 def handler():
 
     quote = random.choice(quotes_data["quotes"])
-    mastodon.status_post('{0} \n —{1} ({2})'.format(quote["quote"], quote["source"], quote["year"]))
+    quote_post = '{0} \n —{1} \n \n {2}'.format(quote["quote"], quote["source"], quote["tags"])
+
+    if len(quote_post) > 500:
+        quote = random.choice(quotes_data["quotes"])
+        quote_post = '{0} \n —{1} \n \n {2}'.format(quote["quote"], quote["source"], quote["tags"])
+
+    else:
+        mastodon.status_post(quote_post)
     
 
 if __name__ == "__main__":
